@@ -17,3 +17,15 @@ a{
 	background-color: blue;
 	padding:10px;
 }
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 100;
+    font-variant-caps: all-small-caps; 
+}
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+h3{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 32px;
+}
