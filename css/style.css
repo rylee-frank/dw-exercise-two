@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=JetBrains+Mono:wght@100;400;800&family=Reenie+Beanie&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body, html {
+		min-height: 100vh;
+		margin:0;
+	}
+img {
+	max-width: 100%;
+}
+a{
+	display: inline-block;
+	text-decoration: none:
+	color:white;
+	background-color: blue;
+	padding:10px;
+}
