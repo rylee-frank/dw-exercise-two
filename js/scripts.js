@@ -11,7 +11,7 @@ $jone.on("click", function(){
 $rone.on("click", function(){
     $jone.hide();
     $(this).hide();
-    $("main").css("background-color", "white");
+    $("main").css("background-color", "#6d6466");
     $jtwo.show();
     $("main").addClass("scarecrow");
 });
@@ -24,6 +24,7 @@ $rtwo.on("click", function(){
     $jtwo.hide();
     $(this).hide();
     $("main").removeClass("scarecrow-medal");
+    $("main").css("background-color", "white");
     $jthree.show();
     $("main").addClass("grapes");
 });
@@ -36,5 +37,6 @@ $rthree.on("click", function(){
     $jthree.hide();
     $(this).hide();
     $("main").removeClass("grapes-wine");
+    $("main").css("background-color", "#ffff82");
     $jone.show();
 });
