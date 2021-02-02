@@ -14,16 +14,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-main {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-main:hover {
-    
-}
 header {
     border-bottom: 1px solid;
     padding:20px 30px 0 10px;
@@ -61,7 +51,16 @@ a{
     padding: 0 20px 0 20px;
     color: #6D6466;
 }
-
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.joke {
+    cursor: url(../imgs/cursor.png), auto;
+}
 h1{
     font-family: 'Reenie Beanie', cursive;
     font-size: 52px;
