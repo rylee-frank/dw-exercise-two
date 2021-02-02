@@ -1,34 +1,40 @@
-$("#j1").on("click", function(){
-    $("#r1").show();
+var $jone = $("#j1");
+var $rone = $("#r1");
+var $jtwo = $("#j2");
+var $rtwo = $("#r2");
+var $jthree = $("#j3");
+var $rthree = $("#r3");
+$jone.on("click", function(){
+    $rone.show();
     $("main").css("background-color", "#D6EEFF");
 });
-$("#r1").on("click", function(){
-    $("#j1").hide();
+$rone.on("click", function(){
+    $jone.hide();
     $(this).hide();
     $("main").css("background-color", "white");
-    $("#j2").show();
+    $jtwo.show();
     $("main").addClass("scarecrow");
 });
-$("#j2").on("click", function(){
-    $("#r2").show();
+$jtwo.on("click", function(){
+    $rtwo.show();
     $("main").removeClass("scarecrow");
     $("main").addClass("scarecrow-medal");
 });
-$("#r2").on("click", function(){
-    $("#j2").hide();
+$rtwo.on("click", function(){
+    $jtwo.hide();
     $(this).hide();
     $("main").removeClass("scarecrow-medal");
-    $("#j3").show();
+    $jthree.show();
     $("main").addClass("grapes");
 });
-$("#j3").on("click", function(){
-    $("#r3").show();
+$jthree.on("click", function(){
+    $rthree.show();
     $("main").removeClass("grapes");
     $("main").addClass("grapes-wine");
 });
-$("#r3").on("click", function(){
-    $("#j3").hide();
+$rthree.on("click", function(){
+    $jthree.hide();
     $(this).hide();
     $("main").removeClass("grapes-wine");
-    $("#j1").show();
+    $jone.show();
 });
