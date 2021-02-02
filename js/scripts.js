@@ -11,7 +11,7 @@ $jone.on("click", function(){
 $rone.on("click", function(){
     $jone.hide();
     $(this).hide();
-    $("main").css("background-color", "#6d6466");
+    $("main").css("background-color", "white");
     $jtwo.show();
     $("main").addClass("scarecrow");
 });
@@ -24,7 +24,7 @@ $rtwo.on("click", function(){
     $jtwo.hide();
     $(this).hide();
     $("main").removeClass("scarecrow-medal");
-    $("main").css("background-color", "white");
+    $("main").css("background-color", "#dec8c8");
     $jthree.show();
     $("main").addClass("grapes");
 });
