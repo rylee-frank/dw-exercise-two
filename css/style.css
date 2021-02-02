@@ -10,22 +10,96 @@ body, html {
 img {
 	max-width: 100%;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main:hover {
+    
+}
+header {
+    border-bottom: 1px solid;
+    padding:20px 30px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    background-image: url(../imgs/logo.svg);
+    width: 60px;
+    height:60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    grid-gap: 50px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 26px;
+    margin: 0;
+}
 a{
 	display: inline-block;
-	text-decoration: none:
-	color:white;
-	background-color: blue;
-	padding:10px;
+	text-decoration: none;
+	color:#6D6466;
 }
-h1 {
+.button {
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #D6EEFF;
+    padding: 0 20px 0 20px;
+    color: #6D6466;
+}
+
+h1{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 52px;
+    margin: 0;
+}
+h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+}
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+h4 {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 100;
     font-variant-caps: all-small-caps; 
+    font-size: 24px;
+    padding: 0 0 0 10px;
+    margin: 0;
 }
-h2 {
-    font-family: 'Amatic SC', cursive;
+p {
+    
 }
-h3{
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 32px;
+footer {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 50px;
+    justify-content: center;
+    border-top: 2px solid;
+    padding: 10px;
+}
+.credits {
+    text-align: right;
+}
+.copyright {
+    padding-top: 5px;
 }
