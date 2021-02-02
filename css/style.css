@@ -61,6 +61,17 @@ main {
 .joke {
     cursor: url(../imgs/cursor.png), auto;
 }
+.joke div:not(:first-child){
+    display: none;
+}
+.scarecrow{
+    background-image: url(../imgs/scarecrow.png);
+    background-size: cover;
+}
+.scarecrow-medal{
+    background-image: url(../imgs/scarecrow-medal.png);
+    background-size: cover;
+}
 h1{
     font-family: 'Reenie Beanie', cursive;
     font-size: 52px;
