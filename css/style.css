@@ -72,6 +72,14 @@ main {
     background-image: url(../imgs/scarecrow-medal.png);
     background-size: cover;
 }
+.grapes {
+    background-image: url(../imgs/grapes.png);
+    background-size: cover;
+}
+.grapes-wine {
+    background-image: url(../imgs/grape-wine.png);
+    background-size: cover;
+}
 h1{
     font-family: 'Reenie Beanie', cursive;
     font-size: 52px;

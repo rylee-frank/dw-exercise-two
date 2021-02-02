@@ -1,10 +1,3 @@
-var $jone= ("#j1");
-var $rone= ("#r1");
-var $jtwo= ("#j2");
-var $rtwo= ("#r2");
-var $jthree= ("#j3");
-var $rthree= ("#r3");
-
 $("#j1").on("click", function(){
     $("#r1").show();
     $("main").css("background-color", "#D6EEFF");
@@ -20,4 +13,22 @@ $("#j2").on("click", function(){
     $("#r2").show();
     $("main").removeClass("scarecrow");
     $("main").addClass("scarecrow-medal");
+});
+$("#r2").on("click", function(){
+    $("#j2").hide();
+    $(this).hide();
+    $("main").removeClass("scarecrow-medal");
+    $("#j3").show();
+    $("main").addClass("grapes");
+});
+$("#j3").on("click", function(){
+    $("#r3").show();
+    $("main").removeClass("grapes");
+    $("main").addClass("grapes-wine");
+});
+$("#r3").on("click", function(){
+    $("#j3").hide();
+    $(this).hide();
+    $("main").removeClass("grapes-wine");
+    $("#j1").show();
 });
